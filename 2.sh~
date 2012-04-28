@@ -1,0 +1,15 @@
+#!/bin/csh
+
+set fromdir = "/home/fuzz00/jess/"
+mkdir -p -v $home/jess/examples/pumps
+# Aufgabe 14
+cp $fromdir/?/sticks.clp $home/jess/examples/
+# Aufgabe 15
+cp $fromdir/?/wein.clp $home/jess/examples/
+cp $fromdir/?/wein.dat $home/jess/examples/
+# Aufgabe 16
+cp $fromdir/?/animal.clp $home/jess/examples/
+cp $fromdir/?/animal.dat $home/jess/examples/
+# Aufgabe 17
+cp $fromdir/?/pumps.clp $home/jess/examples/pumps/
+
